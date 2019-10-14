@@ -1,2 +1,2 @@
 # SoftwareUniversity
-My Tasks exercises in C#
+My Tasks exercises in C#, JS and DB
