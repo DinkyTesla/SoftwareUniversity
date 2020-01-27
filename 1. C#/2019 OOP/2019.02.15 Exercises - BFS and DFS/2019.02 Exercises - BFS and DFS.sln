@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Reverse Array", "01.Reverse Array\01.Reverse Array.csproj", "{5913FCEB-1A95-46BD-AC69-CFC35CCCB002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Nested Loops To Recursion", "02. Nested Loops To Recursion\02. Nested Loops To Recursion.csproj", "{BF186B3F-AD33-43CB-837B-55BC15917190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Connected Areas in a Matrix", "03. Connected Areas in a Matrix\03. Connected Areas in a Matrix.csproj", "{EA464CAC-35CC-424E-A839-27E39752AF95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5913FCEB-1A95-46BD-AC69-CFC35CCCB002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5913FCEB-1A95-46BD-AC69-CFC35CCCB002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5913FCEB-1A95-46BD-AC69-CFC35CCCB002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5913FCEB-1A95-46BD-AC69-CFC35CCCB002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF186B3F-AD33-43CB-837B-55BC15917190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF186B3F-AD33-43CB-837B-55BC15917190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF186B3F-AD33-43CB-837B-55BC15917190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF186B3F-AD33-43CB-837B-55BC15917190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA464CAC-35CC-424E-A839-27E39752AF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA464CAC-35CC-424E-A839-27E39752AF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA464CAC-35CC-424E-A839-27E39752AF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA464CAC-35CC-424E-A839-27E39752AF95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C140DD0-7001-4C44-BB83-9768E3F4EEC5}
+	EndGlobalSection
+EndGlobal

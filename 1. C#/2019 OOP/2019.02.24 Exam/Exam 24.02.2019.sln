@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ClubParty", "01.ClubParty\01.ClubParty.csproj", "{E82FEC6A-D9D5-415B-AFBA-93AF06B34A97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heroes", "Heroes\Heroes.csproj", "{302764C2-25AF-4AEE-B954-75F531DB181E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubParty2", "ClubParty2\ClubParty2.csproj", "{E76A8D7B-64E2-493B-8C6F-FAE5BBB6EB11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E82FEC6A-D9D5-415B-AFBA-93AF06B34A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82FEC6A-D9D5-415B-AFBA-93AF06B34A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82FEC6A-D9D5-415B-AFBA-93AF06B34A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82FEC6A-D9D5-415B-AFBA-93AF06B34A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302764C2-25AF-4AEE-B954-75F531DB181E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302764C2-25AF-4AEE-B954-75F531DB181E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302764C2-25AF-4AEE-B954-75F531DB181E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302764C2-25AF-4AEE-B954-75F531DB181E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76A8D7B-64E2-493B-8C6F-FAE5BBB6EB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76A8D7B-64E2-493B-8C6F-FAE5BBB6EB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76A8D7B-64E2-493B-8C6F-FAE5BBB6EB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76A8D7B-64E2-493B-8C6F-FAE5BBB6EB11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC457106-EF06-4413-A534-B2B5B4DF137D}
+	EndGlobalSection
+EndGlobal
