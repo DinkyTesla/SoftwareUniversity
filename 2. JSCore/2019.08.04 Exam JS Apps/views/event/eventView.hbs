@@ -1,0 +1,18 @@
+<!-- Details -->
+<tr>
+    <td class="number">{{@index}}</td>
+    <td class="product">{{product}}</td>
+    <td class="description">{{description}}</td>
+    <td class="price">{{price}}</td>
+    <td>
+        <a href='#/detailsEvent/{{_id}}' class="btn-primary btn">Order details</a>
+    </td>
+    <td>
+        <a href="#/deleteEvent/{{_id}}" class="btn-danger btn">Delete</a>
+        <a href="#/editEvent/{{_id}}" class="btn-info btn">Edit</a>
+        <a href="#/buyEvent/{{_id}}" class="btn-warning btn">Buy</a>
+    <!--{{#if isCreator}}-->
+     <!--{{/if}}-->
+    </td>
+</tr>
+<!-- ./Details -->
