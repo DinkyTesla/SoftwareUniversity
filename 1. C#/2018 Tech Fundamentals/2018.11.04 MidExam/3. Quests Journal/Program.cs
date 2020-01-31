@@ -15,6 +15,7 @@ namespace _3._Quests_Journal
                 .ToList());
 
             List<string> journal = new List<string>();
+
             for (int i = 0; i < givenList.Count; i++)
             {
                 journal.Add(givenList[i]);
@@ -64,13 +65,6 @@ namespace _3._Quests_Journal
                         }
 
                     }
-                    //else
-                    //{
-                    //        journal.Add(sideQuestList[0]);
-                    //    int index = journal.IndexOf(sideQuestList[0]);
-                    //    journal.Insert(index + 1, sideQuestList[1]);
-                    //}
-                    
                 }
                 else if (workList.Contains("Renew"))
                 {
@@ -82,6 +76,7 @@ namespace _3._Quests_Journal
                     
                 }
             }
+
             Console.WriteLine(string.Join(", ", journal));
         }
     }

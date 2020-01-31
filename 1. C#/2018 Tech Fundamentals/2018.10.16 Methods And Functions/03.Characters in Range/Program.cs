@@ -10,7 +10,6 @@ namespace _03.Characters_in_Range
     {
         public static void Main(string[] args)
         {
-
             PrintCharactersInBetween();
         }
 
@@ -19,10 +18,8 @@ namespace _03.Characters_in_Range
             char firstChar = char.Parse(Console.ReadLine());
             char secondChar = char.Parse(Console.ReadLine());
 
-
             if ((int)firstChar < (int)secondChar)
             {
-
                 for (int i = (int)firstChar + 1; i < (int)secondChar; i++)
                 {
                     Console.Write((char)i + " ");
@@ -30,7 +27,6 @@ namespace _03.Characters_in_Range
             }
             else
             {
-
                 for (int i = (int)secondChar + 1; i < (int)firstChar; i++)
                 {
                     Console.Write((char)i + " ");

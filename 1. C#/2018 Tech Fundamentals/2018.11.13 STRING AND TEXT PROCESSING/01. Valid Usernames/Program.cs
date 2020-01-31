@@ -42,6 +42,7 @@ namespace _01._Valid_Usernames
                         {
                             negativeCounter++;
                         }
+
                         if (positiveCounter == username.Length)
                         {
                             result += username;
@@ -50,12 +51,14 @@ namespace _01._Valid_Usernames
 
                     positiveCounter = 0;
                     negativeCounter = 0;
+
                     if (result != string.Empty)
                     {
-                    Console.WriteLine(result);
-                    result = string.Empty;
+                        Console.WriteLine(result);
+                        result = string.Empty;
                     }
                 }
+
                 break;
             }
         }

@@ -20,7 +20,6 @@ namespace Exe._04
             }
 
             bool ContainsOnlyDigitsAndLetters = ContainsOnlyDigitsAndLetters(password);
-
         }
 
         public static bool CheckLengthOfPassword(string password)

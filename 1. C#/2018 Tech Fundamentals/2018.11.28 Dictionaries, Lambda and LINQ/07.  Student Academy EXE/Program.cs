@@ -36,7 +36,6 @@ namespace _07.__Student_Academy_EXE
 
                 Console.WriteLine($"{name} -> {grades.Average():f2}");
             }
-
         }
     }
 }

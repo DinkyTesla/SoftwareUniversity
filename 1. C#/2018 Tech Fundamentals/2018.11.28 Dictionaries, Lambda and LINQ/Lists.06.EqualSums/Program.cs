@@ -19,9 +19,9 @@ namespace Lists._06.EqualSums
 
             for (int i = 0; i < givenList.Count; i++)
             {
+
                 for (int j = 0; j > givenList.Count; j++)
                 {
-                    
 
                     leftSum += givenList[i];
 
@@ -30,12 +30,8 @@ namespace Lists._06.EqualSums
                         Console.WriteLine("0");
                         return;
                     }
-
-
                 }
             }
-
-
         }
     }
 }

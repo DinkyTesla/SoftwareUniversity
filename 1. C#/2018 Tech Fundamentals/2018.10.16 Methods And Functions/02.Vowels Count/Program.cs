@@ -10,9 +10,7 @@ namespace _02.Vowels_Count
     {
         public static void Main()
         {
-
             VowelsCounter();
-
         }
 
         public static void VowelsCounter()
@@ -32,7 +30,6 @@ namespace _02.Vowels_Count
             }
 
             Console.WriteLine(vowelsCounter);
-        
         }
     }
 }

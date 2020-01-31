@@ -10,26 +10,6 @@ namespace _01._01
     {
         public static void Main()
         {
-
-            //string givenText = Console.ReadLine()
-            //    .Split()
-            //    .
-
-            //var someDictionary = new Dictionary<char, int>();
-
-            //var newList = new List<char>();
-
-            //foreach (var item in givenText)
-            //{
-
-            //    newList.Add(item);
-            //}
-            //for (int i = 0; i < givenText.Length; i++)
-            //{
-            //    newlist.add
-            //}
-
-
             List<string> givenText = Console.ReadLine()
                 .Split(' ', StringSplitOptions.RemoveEmptyEntries)
                 .ToList();
@@ -47,12 +27,11 @@ namespace _01._01
                     someDictionary[item]++;
                 }
             }
+
             foreach (var kvp in someDictionary)
             {
                 Console.WriteLine($"{kvp.Key} -> {kvp.Value}");
             }
-
-
         }
     }
 }

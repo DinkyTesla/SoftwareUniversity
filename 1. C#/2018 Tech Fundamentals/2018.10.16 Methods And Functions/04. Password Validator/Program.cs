@@ -13,11 +13,9 @@ namespace _04.Password_Validator
             string inputPassword = Console.ReadLine();
 
             IsLetterOrDigitBool();
-
-
         }
 
-        public static bool IsLetterOrDigitBool (string inputPassword)
+        public static bool IsLetterOrDigitBool(string inputPassword)
         {
             foreach (var chr in inputPassword)
             {
@@ -27,10 +25,6 @@ namespace _04.Password_Validator
                     Console.WriteLine("Password must consist only of letters and digits");
                 }
             }
-
         }
-
     }
-
-}
 }

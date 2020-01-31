@@ -64,11 +64,13 @@ namespace _03._03.Legendary_Farming_EXE
                         junkMaterials[material] += quantity;
                     }
                 }
+
                 if (hasToBreak)
                 {
                     break;
                 }
             }
+
             foreach (var kvp in keyMaterials.OrderByDescending(kvp=>kvp.Value).ThenBy
                 (kvp=>kvp.Key))
             {

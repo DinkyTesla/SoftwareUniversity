@@ -68,6 +68,7 @@ namespace _02.Baking_Rush
                     }
                 }
             }
+
             if (health > 0)
             {
                 Console.WriteLine("You've made it!");

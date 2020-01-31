@@ -31,6 +31,5 @@ namespace Exe._01
                 return secondNumber;
             }
         }
-
     }
 }

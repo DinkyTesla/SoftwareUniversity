@@ -36,6 +36,7 @@ namespace _04._Orders
                 }
                 productPrice[product] = price;
             }
+
             foreach (var kvp in productQuantity)
             {
                 string product = kvp.Key;

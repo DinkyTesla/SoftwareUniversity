@@ -24,17 +24,20 @@ namespace _1._Party_Profit
                 {
                     currentParty -= 2;
                 }
+
                 if (i % 15 == 0)
                 {
                     currentParty += 5;
                 }
 
                 daylyCoins -= (currentParty * 2);
+
                 if (i % 3 == 0)
                 {
                     daylyCoins -= (currentParty * 3);
                     motivationalDay = true;
                 }
+
                 if (i % 5 == 0)
                 {
                     daylyCoins += (currentParty * 20);
@@ -44,9 +47,11 @@ namespace _1._Party_Profit
                         
                     }
                 }
+
                 motivationalDay = false;
 
             }
+
             double memberCoins = Math.Floor(daylyCoins / currentParty);
             Console.WriteLine($"{currentParty} companions received {memberCoins} coins each.");
         }

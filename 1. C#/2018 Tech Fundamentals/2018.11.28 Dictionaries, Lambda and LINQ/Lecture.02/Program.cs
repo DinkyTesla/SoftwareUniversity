@@ -10,8 +10,6 @@ namespace Lecture._02
     {
         public static void Main()
         {
-            //var dict = new Dictionary<string, int>();
-
             var dict = new SortedDictionary<string, int>();
 
             dict["Ivan"] = 6;
@@ -23,8 +21,6 @@ namespace Lecture._02
 
             foreach (var nameToMark in dict)
             {
-                //Console.WriteLine(nameToMark.Value);
-
                 Console.WriteLine($"{nameToMark.Key} -> {nameToMark.Value}");
             }
         }
